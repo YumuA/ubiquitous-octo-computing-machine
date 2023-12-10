@@ -24,7 +24,7 @@ export const AgregarCountryLanguage = () => {
 
     return (
         <div className="Agregar">
-            <h1 className="AgregarTittle">Agregar Country</h1>
+            <h1 className="AgregarTittle">Agregar Country Language</h1>
             <form className="AgregarFormulario" onSubmit={handleCountry}>
                 <input type="text" name="name_language" id="name_language" className="name_language AgregarFormularioInput" placeholder="Nombre Country"></input>
                 <input type="text" name="id_country" id="id_country" className="id_country AgregarFormularioInput" placeholder="ID Country"></input>
